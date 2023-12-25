@@ -9,9 +9,14 @@ module.exports = {
     path: path.resolve(__dirname, 'public'),
     filename: 'bundle.js',
   },
+  performance: {
+    hints: false,
+    maxEntrypointSize: 1000000,
+    maxAssetSize: 1000000
+  },
   module: {
     rules: [
-      { test: /\.css$/, use: 'css-loader' },
+      { test: /\.css$/, use: ['style-loader', 'css-loader']},
     ],
   },
 };
