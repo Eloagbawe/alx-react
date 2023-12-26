@@ -22,13 +22,13 @@ module.exports = {
         type: 'asset/resource',
         // use: [
         //   "file-loader",
-        //   // {
-        //   //   loader: "image-webpack-loader",
-        //   //   options: {
-        //   //     bypassOnDebug: true,
-        //   //     disable: true,
-        //   //   },
-        //   // },
+        //   {
+        //     loader: "image-webpack-loader",
+        //     options: {
+        //       bypassOnDebug: true,
+        //       disable: true,
+        //     },
+        //   },
         // ],
       },
     ],
