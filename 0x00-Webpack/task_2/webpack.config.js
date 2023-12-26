@@ -20,6 +20,16 @@ module.exports = {
       {
         test: /\.(gif|png|jp?g|svg)$/i,
         type: 'asset/resource',
+        // use: [
+        //   "file-loader",
+        //   // {
+        //   //   loader: "image-webpack-loader",
+        //   //   options: {
+        //   //     bypassOnDebug: true,
+        //   //     disable: true,
+        //   //   },
+        //   // },
+        // ],
       },
     ],
   },
