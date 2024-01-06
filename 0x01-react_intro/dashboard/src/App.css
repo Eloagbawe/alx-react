@@ -29,7 +29,7 @@ body {
 .App-body {
   border-top: 3.5px solid #DF354B;
   border-bottom: 3.5px solid #DF354B;
-  height: 60vh;
+  min-height: 40vh;
   padding: 2rem;
 }
 
